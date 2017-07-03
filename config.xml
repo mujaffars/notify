@@ -13,7 +13,7 @@
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+    <plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git" source="git" />
     
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
